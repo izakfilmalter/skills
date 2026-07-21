@@ -1,0 +1,3 @@
+interface:
+  display_name: "Slack Feature to PR"
+  short_description: "Turn a Slack feature request into a reviewed PR"

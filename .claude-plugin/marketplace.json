@@ -1,0 +1,23 @@
+{
+  "name": "izakfilmalter",
+  "owner": {
+    "name": "Izak Filmalter",
+    "url": "https://github.com/izakfilmalter"
+  },
+  "description": "Izak Filmalter's installable engineering workflow skills.",
+  "plugins": [
+    {
+      "name": "izakfilmalter-skills",
+      "source": "./",
+      "description": "Bug, feature, and Slack workflows that ship reviewed GitHub pull requests.",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "github",
+        "pull-requests",
+        "tdd",
+        "slack"
+      ]
+    }
+  ]
+}

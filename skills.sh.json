@@ -1,0 +1,24 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Pull request workflows",
+      "description": "Task-facing workflows that ship bugs and features from prompts or Slack threads.",
+      "skills": [
+        "bug-to-pr",
+        "feature-to-pr",
+        "slack-bug-to-pr",
+        "slack-feature-to-pr"
+      ]
+    },
+    {
+      "title": "Workflow primitives",
+      "description": "Shared request and Slack lifecycle skills composed by the task-facing workflows.",
+      "skills": [
+        "request-to-pr",
+        "slack-to-pr"
+      ]
+    }
+  ]
+}

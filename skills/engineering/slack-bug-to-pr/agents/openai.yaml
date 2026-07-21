@@ -1,0 +1,3 @@
+interface:
+  display_name: "Slack Bug to PR"
+  short_description: "Turn a Slack bug report into a reviewed PR"

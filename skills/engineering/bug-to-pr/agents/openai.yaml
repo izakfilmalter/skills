@@ -1,0 +1,3 @@
+interface:
+  display_name: "Bug to PR"
+  short_description: "Diagnose a bug and ship a reviewed pull request"

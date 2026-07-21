@@ -1,0 +1,27 @@
+{
+  "name": "izakfilmalter-skills",
+  "version": "0.1.0",
+  "description": "Composable bug, feature, and Slack workflows that finish with ready-for-review GitHub pull requests.",
+  "author": {
+    "name": "Izak Filmalter",
+    "url": "https://github.com/izakfilmalter"
+  },
+  "repository": "https://github.com/izakfilmalter/skills",
+  "license": "MIT",
+  "keywords": [
+    "engineering",
+    "skills",
+    "github",
+    "pull-requests",
+    "tdd",
+    "slack"
+  ],
+  "skills": [
+    "./skills/engineering/bug-to-pr",
+    "./skills/engineering/feature-to-pr",
+    "./skills/engineering/slack-bug-to-pr",
+    "./skills/engineering/slack-feature-to-pr",
+    "./skills/references/request-to-pr",
+    "./skills/references/slack-to-pr"
+  ]
+}

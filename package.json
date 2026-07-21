@@ -1,0 +1,21 @@
+{
+  "name": "izakfilmalter-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Composable agent skills that turn requests and Slack threads into reviewed GitHub pull requests",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/izakfilmalter/skills"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "node scripts/validate.mjs",
+    "validate": "node scripts/validate.mjs"
+  },
+  "engines": {
+    "node": ">=22.20.0"
+  },
+  "devDependencies": {
+    "yaml": "^2.9.0"
+  }
+}

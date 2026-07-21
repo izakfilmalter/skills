@@ -1,0 +1,3 @@
+interface:
+  display_name: "Slack to PR"
+  short_description: "Shared Slack lifecycle for pull-request workflows"

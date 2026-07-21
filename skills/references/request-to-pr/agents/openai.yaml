@@ -1,0 +1,3 @@
+interface:
+  display_name: "Request to PR"
+  short_description: "Shared gates for shipping a reviewed GitHub PR"
