@@ -19,6 +19,14 @@
         "request-to-pr",
         "slack-to-pr"
       ]
+    },
+    {
+      "title": "Video inspection",
+      "description": "Extract transcripts and exact frames from accessible meeting and screen recordings.",
+      "skills": [
+        "fathom-video",
+        "loom-video"
+      ]
     }
   ]
 }

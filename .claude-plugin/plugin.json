@@ -1,7 +1,7 @@
 {
   "name": "izakfilmalter-skills",
-  "version": "0.1.0",
-  "description": "Composable bug, feature, and Slack workflows that finish with ready-for-review GitHub pull requests.",
+  "version": "0.2.0",
+  "description": "Portable pull-request workflows and Fathom/Loom video inspection skills.",
   "author": {
     "name": "Izak Filmalter",
     "url": "https://github.com/izakfilmalter"
@@ -14,13 +14,18 @@
     "github",
     "pull-requests",
     "tdd",
-    "slack"
+    "slack",
+    "fathom",
+    "loom",
+    "video"
   ],
   "skills": [
     "./skills/engineering/bug-to-pr",
     "./skills/engineering/feature-to-pr",
     "./skills/engineering/slack-bug-to-pr",
     "./skills/engineering/slack-feature-to-pr",
+    "./skills/media/fathom-video",
+    "./skills/media/loom-video",
     "./skills/references/request-to-pr",
     "./skills/references/slack-to-pr"
   ]

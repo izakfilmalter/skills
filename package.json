@@ -1,8 +1,8 @@
 {
   "name": "izakfilmalter-skills",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "Composable agent skills that turn requests and Slack threads into reviewed GitHub pull requests",
+  "description": "Portable agent skills for pull-request workflows and video inspection",
   "repository": {
     "type": "git",
     "url": "https://github.com/izakfilmalter/skills"

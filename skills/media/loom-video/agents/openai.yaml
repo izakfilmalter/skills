@@ -1,0 +1,3 @@
+interface:
+  display_name: "Loom Video"
+  short_description: "Inspect Loom transcripts and timestamped frames"

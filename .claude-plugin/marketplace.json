@@ -4,19 +4,22 @@
     "name": "Izak Filmalter",
     "url": "https://github.com/izakfilmalter"
   },
-  "description": "Izak Filmalter's installable engineering workflow skills.",
+  "description": "Izak Filmalter's installable engineering and media workflow skills.",
   "plugins": [
     {
       "name": "izakfilmalter-skills",
       "source": "./",
-      "description": "Bug, feature, and Slack workflows that ship reviewed GitHub pull requests.",
+      "description": "Pull-request workflows plus Fathom and Loom video inspection.",
       "category": "engineering",
       "keywords": [
         "engineering",
         "github",
         "pull-requests",
         "tdd",
-        "slack"
+        "slack",
+        "fathom",
+        "loom",
+        "video"
       ]
     }
   ]

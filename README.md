@@ -1,8 +1,8 @@
-# PR Workflow Skills
+# Agent Skills
 
-Composable agent skills that turn bug reports and feature requests into ready-for-review GitHub pull requests.
+Portable agent skills for pull-request workflows and video inspection.
 
-The collection has four task-facing skills and two reusable workflow primitives:
+The collection includes four task-facing PR skills, two reusable workflow primitives, and two video-inspection skills.
 
 ## Task-facing skills
 
@@ -18,6 +18,13 @@ The collection has four task-facing skills and two reusable workflow primitives:
 
 The reference skills are model-invoked primitives. The four task-facing skills compose them by name, following the same primitive/wrapper pattern used by `grilling` and `grill-me`.
 
+## Video inspection
+
+- [`fathom-video`](./skills/media/fathom-video/SKILL.md) — extract speaker-labelled Fathom transcripts and exact timestamped frames.
+- [`loom-video`](./skills/media/loom-video/SKILL.md) — extract Loom transcripts and timestamped frames from accessible recordings.
+
+Both video skills bundle a dependency-free Python extractor, use paths relative to their installed skill directories, and work across agent harnesses. They do not assume an OpenCode installation path or tool name.
+
 ## Install with skills.sh
 
 Install the collection into a supported coding agent:
@@ -26,7 +33,7 @@ Install the collection into a supported coding agent:
 npx skills@latest add izakfilmalter/skills
 ```
 
-Install all six skills when prompted. The task-facing skills depend on the reference skills in this repository.
+Install all eight skills when prompted, or select only the skills you need. The task-facing PR skills depend on the reference skills in this repository; the video skills are standalone.
 
 ## Install as a Claude Code plugin
 
@@ -49,6 +56,8 @@ The plugin installs the complete skill stack, including both reference skills.
 ## Requirements
 
 - Node.js 22.20 or newer when installing with the current `skills` CLI.
+- Python 3.10 or newer for `fathom-video` and `loom-video`.
+- `ffmpeg` for frame extraction; transcript extraction does not require it.
 - A Git repository with a GitHub remote.
 - An authenticated [`gh`](https://cli.github.com/) session with permission to push branches and create pull requests.
 - The repository's normal development and test toolchain.
@@ -63,7 +72,7 @@ npm test
 claude plugin validate . --strict
 ```
 
-`npm test` checks skill metadata, docs, plugin coverage, cross-skill references, and version consistency.
+`npm test` checks skill metadata, docs, plugin coverage, cross-skill references, and version consistency. CI also smoke-tests both Python extractors on Python 3.10.
 
 ## License
 

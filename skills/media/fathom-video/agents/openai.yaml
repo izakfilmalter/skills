@@ -1,0 +1,3 @@
+interface:
+  display_name: "Fathom Video"
+  short_description: "Inspect Fathom transcripts and exact video frames"

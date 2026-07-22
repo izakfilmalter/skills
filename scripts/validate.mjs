@@ -4,7 +4,7 @@ import process from "node:process";
 import { parse as parseYaml } from "yaml";
 
 const root = process.cwd();
-const buckets = ["engineering", "references"];
+const buckets = ["engineering", "media", "references"];
 const errors = [];
 
 const read = (relativePath) =>
